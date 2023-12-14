@@ -48,3 +48,16 @@ p {
 .zoldborder {
     border-color: green;
 }
+
+table {
+    width: 600px;
+    height: 600px;
+}
+.td {
+    background-color: black;
+}
+
+.pepita tr:nth-child(odd) td:nth-child(even)
+.pepita tr:nth-child(even) td:nth-child(odd) {
+    background-color: black;
+}
